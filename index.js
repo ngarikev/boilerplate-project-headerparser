@@ -25,9 +25,7 @@ app.get('/api/hello', function (req, res) {
 });
 // fetch API
 app.get('/api/whoami', function(req, res) {
-  res.json({"ipaddress":"105.163.157.177",
-    "language":"en-Uk,en;q=0.9,my;q=0.8,sw;q=0.7,es;q=0.6,pt;q=0.5",
-    "software":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"})
+  res.json({"ipaddress":"172.70.110.8","language":"en-US,en;q=0.9,my;q=0.8,sw;q=0.7,es;q=0.6,pt;q=0.5","software":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"})
 })
 
 // listen for requests :)
